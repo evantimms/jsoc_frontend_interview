@@ -11,8 +11,9 @@ export default {
 <style scoped>
 .divider {
   height: 1px;
-  width: 80%;
-  max-width: 1000px;
+  width: 100%;
+  min-width: 100px;
+  max-width: 532px;
   background-color: #2c3e50;
   margin: 0 auto;
 }

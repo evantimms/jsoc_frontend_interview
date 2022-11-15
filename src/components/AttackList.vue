@@ -1,7 +1,6 @@
 <template>
   <h4 class="attack-list-header">Attack List</h4>
   <Divider />
-  <Spacer />
   <div class="attack-list">
     <AttackListing v-for="attack in attacks" :attack="attack" />
   </div>
@@ -33,9 +32,10 @@ export default {
 .attack-list {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
-  max-height: 100%;
-  overflow: hidden;
+  flex: 1;
+  overflow: scroll;
+  height: 100%;
 }
 </style>
