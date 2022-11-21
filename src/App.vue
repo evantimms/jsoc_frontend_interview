@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <h2 class="header"><span>Transparency</span> <AiProtocolsSquare /></h2>
-    <h5>Tracking Security Metrics Across RBC</h5>
+    <h5>Tracking Security Metrics</h5>
     <Spacer />
     <AttackList :attacks="attacks" />
   </div>
