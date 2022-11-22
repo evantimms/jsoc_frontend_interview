@@ -3,7 +3,7 @@
     <h2 class="header"><span>Transparency</span> <AiProtocolsSquare /></h2>
     <h5>Tracking Security Metrics</h5>
     <Spacer />
-    <AttackList :attacks="attacks" />
+    <AttackList />
   </div>
 </template>
 
@@ -12,15 +12,9 @@ import { ref } from 'vue';
 import { AiProtocolsSquare } from '@kalimahapps/vue-icons/ai';
 import AttackList from './components/AttackList.vue';
 import Spacer from './components/Spacer.vue';
-import attacks from './data/attacks.json';
 
 export default {
   name: 'App',
-  setup() {
-    return {
-      attacks: attacks.data,
-    };
-  },
   components: {
     AttackList,
     AiProtocolsSquare,

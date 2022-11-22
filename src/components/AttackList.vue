@@ -7,19 +7,23 @@
 </template>
 
 <script>
-import AttackListing from './AttackListing.vue'
+import AttackListing from './AttackListing.vue';
 import Divider from './Divider.vue';
-import Spacer from './Spacer.vue'
+import Spacer from './Spacer.vue';
+import attacks from '../data/attacks.json';
+
 export default {
   name: 'AttackList',
-  props: {
-    attacks: Array<Object>,
+  setup() {
+    return {
+      attacks,
+    };
   },
   components: {
     Divider,
     AttackListing,
-    Spacer
-  }
+    Spacer,
+  },
 };
 </script>
 
