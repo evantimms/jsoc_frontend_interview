@@ -2,7 +2,7 @@
   <h4 class="attack-list-header">Attack List</h4>
   <Divider />
   <div class="attack-list">
-    <AttackListing v-for="attack in attacks" :attack="attack" />
+    <AttackListing v-for="attack in attacks.data" :attack="attack" />
   </div>
 </template>
 
