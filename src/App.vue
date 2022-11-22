@@ -8,6 +8,7 @@
 </template>
 
 <script>
+import { ref } from 'vue';
 import { AiProtocolsSquare } from '@kalimahapps/vue-icons/ai';
 import AttackList from './components/AttackList.vue';
 import Spacer from './components/Spacer.vue';
@@ -15,7 +16,7 @@ import attacks from './data/attacks.json';
 
 export default {
   name: 'App',
-  data() {
+  setup() {
     return {
       attacks: attacks.data,
     };
