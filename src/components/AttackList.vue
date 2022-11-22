@@ -36,6 +36,6 @@ export default {
   align-items: center;
   flex: 1;
   overflow: scroll;
-  height: 100%;
+  height: 100vh;
 }
 </style>

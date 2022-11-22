@@ -47,6 +47,8 @@ body {
   color: #2c3e50;
   height: 100%;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
