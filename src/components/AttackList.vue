@@ -7,7 +7,6 @@
 </template>
 
 <script>
-import { ref } from 'vue';
 import AttackListing from './AttackListing.vue';
 import Divider from './Divider.vue';
 import Spacer from './Spacer.vue';
