@@ -4,7 +4,13 @@ You are working on the latest and greatest JSOC application, Transparency. Trans
 
 This feature will query the attacks database (simplified as a JSON file) based on the following criteria and dynamically update the list of attacks in the UI.
 
-![Alt text](priorities.png 'a title')
+| Category                            | Low                                                                             | Medium                                                            | High                                                                            |
+| :---------------------------------- | :------------------------------------------------------------------------------ | :---------------------------------------------------------------- | :------------------------------------------------------------------------------ |
+| Attack Type (attack_type)           | Reconnoissance, Discovery or Collection (collection, discovery, reconnoissance) | Defense Evasion, Initial Access (defense_evasion, initial_access) | Credential Access, Command and Control (credential_access, command_and_control) |
+| Country Code (country_code)         | CA                                                                              | US                                                                | Other                                                                           |
+| Threat Actor (threat_actor)         | tomato, hamburger, soup                                                         | lollypop, celery, steak                                           | hotdog, pizza                                                                   |
+| Asset Impact (asset_impact)         | Low                                                                             | Medium                                                            | High                                                                            |
+| Clients Affected (clients_affected) | False                                                                           | True                                                              | True                                                                            |
 
 ## Part 1
 
