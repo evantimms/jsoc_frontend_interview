@@ -8,7 +8,6 @@
 </template>
 
 <script>
-import { ref } from 'vue';
 import { AiProtocolsSquare } from '@kalimahapps/vue-icons/ai';
 import AttackList from './components/AttackList.vue';
 import Spacer from './components/Spacer.vue';

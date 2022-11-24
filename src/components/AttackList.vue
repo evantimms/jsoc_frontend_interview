@@ -2,21 +2,22 @@
   <h4 class="attack-list-header">Attack List</h4>
   <Divider />
   <div class="attack-list">
-    <AttackListing v-for="attack in attacks.data" :attack="attack" />
+    <AttackListing v-for="attack in attacks" :attack="attack" />
   </div>
 </template>
 
 <script>
+import { ref } from 'vue';
 import AttackListing from './AttackListing.vue';
 import Divider from './Divider.vue';
 import Spacer from './Spacer.vue';
-import attacks from '../data/attacks.json';
+import attacksJson from '../data/attacks.json';
 
 export default {
   name: 'AttackList',
-  setup() {
+  data() {
     return {
-      attacks,
+      attacks: [...attacksJson.data],
     };
   },
   components: {
