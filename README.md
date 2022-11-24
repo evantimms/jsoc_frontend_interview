@@ -4,7 +4,7 @@ You are working on the latest and greatest JSOC application, Transparency. Trans
 
 This feature will query the attacks database (simplified as a JSON file) based on the following criteria and dynamically update the list of attacks in the UI.
 
-See `priorities.png` for a breakdown.
+![Alt text](priorities.png 'a title')
 
 ## Part 1
 
