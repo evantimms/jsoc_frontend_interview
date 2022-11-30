@@ -12,8 +12,6 @@ This feature will query the attacks database (simplified as a JSON file) based o
 | Asset Impact (asset_impact)         | Low                                                                             | Medium                                                            | High                                                                            |
 | Clients Affected (clients_affected) | False                                                                           | True                                                              | True                                                                            |
 
-## Part 1
-
 #### The ask is the following:
 
 1. Update the Transparency UI by adding a row of selectable buttons for each of the priorities. Each button should be a different color, and be displayed in a way a user can understand the feature.
@@ -24,4 +22,3 @@ Notes:
 
 - Attacks can match more than one priority. If an attack has multiple priorities, they should show up for all the appropriate priorities.
 - The general design is up to you, it does not need to be super fancy but should be intuitively understood by our users.
-
