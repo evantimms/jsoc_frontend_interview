@@ -25,16 +25,3 @@ Notes:
 - Attacks can match more than one priority. If an attack has multiple priorities, they should show up for all the appropriate priorities.
 - The general design is up to you, it does not need to be super fancy but should be intuitively understood by our users.
 
-## Part 2
-
-The user base loves the new priority feature, congratulations! However, we are getting feedback that there needs to be an easier way to look for attacks. The next feature we are planning is to add some basic search functionality which allows a user to search for a job via the impact level, or the threat actor.
-
-#### The ask is the following:
-
-1. Add a search components to the UI above the attack list. The component should be a text box where the user can only enter alphanumeric characeters.
-2. Add a dropdown with the selections Low, Medium and High. The user may only select one at a time. When a user selects an item, it should show the attacks that correspond to an asset impact of low, medium, or high.
-
-Notes:
-
-- We can repurpose our clear button from part one to clear the search filters in part two.
-- A user can use the filters from part one in combination with the filters in part two.
