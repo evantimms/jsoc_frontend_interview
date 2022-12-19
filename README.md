@@ -4,12 +4,12 @@ You are working on the latest and greatest JSOC application, Transparency. Trans
 
 This feature will query the attacks database (simplified as a JSON file) based on the following criteria and dynamically update the list of attacks in the UI.
 
-| Category                            | Low                                                                             | Medium                                                            | High                                                                            |
-| :---------------------------------- | :------------------------------------------------------------------------------ | :---------------------------------------------------------------- | :------------------------------------------------------------------------------ |
-| Attack Type (attack_type)           | Reconnoissance, Discovery or Collection (collection, discovery, reconnoissance) | Defense Evasion, Initial Access (defense_evasion, initial_access) | Credential Access, Command and Control (credential_access, command_and_control) |
-| Country Code (country_code)         | CA                                                                              | US                                                                | Other                                                                           |
-| Asset Impact (asset_impact)         | Low                                                                             | Medium                                                            | High                                                                            |
-| Clients Affected (clients_affected) | False                                                                           | True                                                              | True                                                                            |
+| Category                            | Low                                   | Medium                          | High                                   |
+| :---------------------------------- | :------------------------------------ | :------------------------------ | :------------------------------------- |
+| Attack Type (attack_type)           | collection, discovery, reconnoissance | defense_evasion, initial_access | credential_access, command_and_control |
+| country_code)                       | CA                                    | US                              | Other                                  |
+| Asset Impact (asset_impact)         | Low                                   | Medium                          | High                                   |
+| Clients Affected (clients_affected) | False                                 | True                            | True                                   |
 
 #### The ask is the following:
 
