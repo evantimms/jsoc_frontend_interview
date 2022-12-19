@@ -16,7 +16,6 @@ This feature will query the attacks database (simplified as a JSON file) based o
 1. Show the attack priority (Low, Medium, High) for each Attack list item. This can be added as a row much like how the other metrics are shown in the list item.
 2. Update the Transparency UI by adding a row of selectable buttons for each of the priorities. Each button should be a different color, and be displayed in a way a user can understand the feature.
 3. When a user clicks a button, Transparency should update the list of attacks being shown to only those that have the priority.
-4. Add a clear button to remove a users current query and show the original attack list again.
 
 Notes:
 
