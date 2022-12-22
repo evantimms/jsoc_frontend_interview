@@ -1,16 +1,8 @@
 <template>
   <div class="attack-list-item">
     <div class="metric">
-      <div class="metric-header">Attack Type:</div>
-      <div class="metric-value">{{ attack.attack_type?.toUpperCase() }}</div>
-    </div>
-    <div class="metric">
       <div class="metric-header">Country</div>
       <div class="metric-value">{{ attack.country_code }}</div>
-    </div>
-    <div class="metric">
-      <div class="metric-header">Threat Actor:</div>
-      <div class="metric-value">{{ attack.threat_actor }}</div>
     </div>
     <div class="metric">
       <div class="metric-header">Asset Impact:</div>
