@@ -23,6 +23,7 @@ Show the attack priority (Low, Medium, High) for each Attack list item. This can
 Notes:
 
 - If an attack matches with more than one priority, the priority assigned to the attack should be the highest of all the priorities it matches. For example, if an attack has metrics matching low and high priorities, it should be assigned high.
+- If Clients Affected is true, then the priority is automatically rated as 'high'.
 
 #### Feature 3
 
