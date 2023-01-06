@@ -14,7 +14,7 @@ We wish to add a feature which sorts the Transparency dataset based on the attac
 
 | Category                            | Low   | Medium | High  |
 | :---------------------------------- | :---- | :----- | :---- |
-| country_code)                       | CA    | US     | Other |
+| Country Code (country_code)         | CA    | US     | Other |
 | Asset Impact (asset_impact)         | Low   | Medium | High  |
 | Clients Affected (clients_affected) | False | True   | True  |
 
