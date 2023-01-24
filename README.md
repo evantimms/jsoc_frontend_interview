@@ -10,12 +10,12 @@ For each attack type, show the remaining metrics that are not shown in the list 
 
 #### Feature 2
 
-We wish to add a feature which sorts the Transparency dataset based on the attacks priority - either as low, medium, or high. The priority is assigned to an attack based on the following table:
+We wish to add a feature which displays the Transparency dataset based on the attacks priority - either as low, medium, or high. The priority is assigned to an attack based on the following table:
 
 | Category                            | Low   | Medium | High  |
 | :---------------------------------- | :---- | :----- | :---- |
 | Country Code (country_code)         | CA    | US     | Other |
-| Asset Impact (asset_impact)         | Low   | Medium | High  |
+| Asset Impact (asset_impact)         | low   | medium | high  |
 | Clients Affected (clients_affected) | False | True   | True  |
 
 Show the attack priority (Low, Medium, High) for each Attack list item. This can be added as a row much like how the other metrics are shown in the list item.
