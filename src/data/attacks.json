@@ -12,32 +12,18 @@
       "country_code": "US",
       "threat_actor": "lollypop",
       "asset_impact": "medium",
-      "clients_affected": true
-    },
-    {
-      "attack_type": "collection",
-      "country_code": "CA",
-      "threat_actor": "hotdog",
-      "asset_impact": "low",
-      "clients_affected": false
-    },
-    {
-      "attack_type": "collection",
-      "country_code": "CA",
-      "threat_actor": "hamburger",
-      "asset_impact": "low",
       "clients_affected": false
     },
     {
       "attack_type": "discovery",
       "country_code": "CA",
       "threat_actor": "celery",
-      "asset_impact": "low",
+      "asset_impact": "high",
       "clients_affected": false
     },
     {
       "attack_type": "initial_access",
-      "country_code": "US",
+      "country_code": "RU",
       "threat_actor": "celery",
       "asset_impact": "low",
       "clients_affected": false
@@ -47,48 +33,20 @@
       "country_code": "US",
       "threat_actor": "steak",
       "asset_impact": "low",
-      "clients_affected": true
+      "clients_affected": false
     },
     {
       "attack_type": "initial_access",
       "country_code": "US",
       "threat_actor": "celery",
-      "asset_impact": "medium",
-      "clients_affected": true
+      "asset_impact": "high",
+      "clients_affected": false
     },
     {
       "attack_type": "defense_evasion",
-      "country_code": "GB",
+      "country_code": "CA",
       "threat_actor": "steak",
-      "asset_impact": "medium",
-      "clients_affected": true
-    },
-    {
-      "attack_type": "credential_access",
-      "country_code": "RU",
-      "threat_actor": "lollypop",
-      "asset_impact": "high",
-      "clients_affected": true
-    },
-    {
-      "attack_type": "credential_access",
-      "country_code": "BR",
-      "threat_actor": "pizza",
-      "asset_impact": "high",
-      "clients_affected": true
-    },
-    {
-      "attack_type": "command_and_control",
-      "country_code": "AU",
-      "threat_actor": "hotdog",
-      "asset_impact": "high",
-      "clients_affected": true
-    },
-    {
-      "attack_type": "command_and_control",
-      "country_code": "JP",
-      "threat_actor": "hotdog",
-      "asset_impact": "high",
+      "asset_impact": "low",
       "clients_affected": true
     }
   ]

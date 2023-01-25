@@ -16,8 +16,14 @@ export default {
   name: 'AttackList',
   data() {
     return {
-      attacks: [...attacksJson.data],
+      attacks: [...attacksJson.data.map((a) => this.assignPriority(a))],
     };
+  },
+  methods: {
+    assignPriority(attack) {
+      // Feature 2: Assign the priority for an attack in this function
+      return attack;
+    },
   },
   components: {
     Divider,
