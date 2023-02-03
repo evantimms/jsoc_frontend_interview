@@ -18,7 +18,7 @@ We wish to add a feature which displays the Transparency dataset based on the at
 | Asset Impact (asset_impact)         | low   | medium | high  |
 | Clients Affected (clients_affected) | False | False  | True  |
 
-Each metric has a rating (low, medium, high) depending on the value. The priority assigned to the attack should be equal to the highest rating. For example, if an attack has metrics with low and high ratings, it should be assigned a a high priority.
+Each metric has a rating (low, medium, high) depending on it's value. The priority assigned to the attack should be equal to the highest rating. For example, if an attack has metrics with low and high ratings, it should be assigned a high for the priority.
 
 Show the attack priority (Low, Medium, High) for each Attack list item. This can be added as a row much like how the other metrics are shown in the list item.
 
