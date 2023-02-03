@@ -37,7 +37,7 @@ Priority: High
 "asset_impact: "medium",
 "clients_affected: False
 }
-Priority: High
+Priority: Medium
 
 #### Feature 3
 
