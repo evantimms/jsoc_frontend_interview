@@ -12,11 +12,11 @@ For each attack type, show the remaining metrics that are not shown in the list 
 
 We wish to add a feature which displays the Transparency dataset based on the attacks priority - either as low, medium, or high. The priority is assigned to an attack based on the following table of ratings:
 
-| Category                            | Low   | Medium | High  |
-| :---------------------------------- | :---- | :----- | :---- |
-| Country Code (country_code)         | CA    | US     | Other |
-| Asset Impact (asset_impact)         | low   | medium | high  |
-| Clients Affected (clients_affected) | False | False  | True  |
+| Category                            | Low   | Medium | High               |
+| :---------------------------------- | :---- | :----- | :----------------- |
+| Country Code (country_code)         | CA    | US     | Other (BR, RU, AU) |
+| Asset Impact (asset_impact)         | low   | medium | high               |
+| Clients Affected (clients_affected) | False | False  | True               |
 
 Each metric has a rating (low, medium, high) depending on it's value. The priority assigned to the attack should be equal to the highest rating. For example, if an attack has metrics with low and high ratings, it should be assigned a high for the priority.
 
