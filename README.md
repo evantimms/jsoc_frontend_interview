@@ -6,13 +6,13 @@ You are working on the latest and greatest JSOC application, Transparency. Trans
 
 #### Feature 1
 
-For each attack type, show the remaining metrics that are not shown in the list item already (this would be attack_type and threat_actor).
+For each attack item, show the remaining metrics that are not shown in the item already (this would be attack_type and threat_actor).
 
 #### Feature 2
 
-We wish to add a feature which displays the Transparency dataset based on the attacks priority - either as low, medium, or high. The priority is assigned to an attack based on the following table of ratings:
+We wish to add a new metric, priority. This metric will have values of low, medium, or high. The priority is assigned to an attack based on the following table of ratings:
 
-| Category                            | Low   | Medium | High                    |
+| Rating                              | Low   | Medium | High                    |
 | :---------------------------------- | :---- | :----- | :---------------------- |
 | Country Code (country_code)         | CA    | US     | Other (BR, RU, AU, etc) |
 | Asset Impact (asset_impact)         | low   | medium | high                    |
