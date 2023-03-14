@@ -32,15 +32,21 @@ An attack has the following metrics:
 "asset_impact": "low",
 "clients_affected": True
 }
-
-Priority: High
+-> Priority: High
 
 {
 "country_code": "US",
 "asset_impact: "medium",
 "clients_affected: False
 }
-Priority: Medium
+-> Priority: Medium
+
+{
+"country_code": "CA",
+"asset_impact: "low",
+"clients_affected: False
+}
+-> Priority: Low
 
 #### Feature 3
 
