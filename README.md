@@ -1,7 +1,3 @@
-# JSOC Frontend Interview
-
-You are working on the latest and greatest JSOC application, Transparency. Transparency collects information on recent malicious attacks on our systems. You have been hired to implement a number of new features for the application
-
 ## Feature Requests:
 
 #### Feature 1
@@ -10,7 +6,7 @@ For each attack item, show the remaining metrics that are not shown in the item 
 
 #### Feature 2
 
-We wish to add a new metric, priority. This metric will have values of low, medium, or high. The priority is assigned to an attack based on the following table of ratings:
+We wish to add a new metric, priority. This metric will have a value of low, medium, or high. The priority is assigned to an attack based on the following table of ratings:
 
 | Rating                              | Low   | Medium | High                    |
 | :---------------------------------- | :---- | :----- | :---------------------- |
@@ -18,11 +14,11 @@ We wish to add a new metric, priority. This metric will have values of low, medi
 | Asset Impact (asset_impact)         | low   | medium | high                    |
 | Clients Affected (clients_affected) | False | False  | True                    |
 
-Each metric has a rating (low, medium, high) depending on it's value. The priority assigned to the attack should be equal to the highest rating. For example, if an attack has metrics with low and high ratings, it should be assigned "High" for the priority.
+Each of the above metrics has a rating associated with it (low, medium, high). For example, country_code can have the ratings of Low (when it is equal to CA), Medium (=US), or high (when it is any other country code).
 
-Show the attack priority (Low, Medium, High) for each attack item in the list. This can be added as a row much like how the other metrics are shown in the list item.
+Show the attack priority (Low, Medium, High) for each attack item in the list. The attack priority should be given the same value as the highest rating from each of the above metrics. This can be added as a row much like how the other metrics are shown in the list item.
 
-Hint: Pay attention to clients_affected. It has the same value for medium and low. Think about how the final priority is assigned if another metric has a medium rating, but clients_affected is False.
+Hint: Pay attention to the metric clients_affected. It has the same value for medium and low. Think about how the final priority is assigned if another metric has a medium rating, but clients_affected is False.
 
 Example:
 
